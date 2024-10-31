@@ -1,0 +1,68 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   /* background: linear-gradient(to bottom right, blue, green); */
+   background: linear-gradient(to bottom right, #1abc9c, #3498db);
+   height: 100vh; 
+   color: white; /* Optional: Change text color for better contrast */
+   
+}
+
+#main-heading{
+   text-align: center;
+   padding-top: 25px;
+   padding-bottom: 0px;
+   margin-bottom: 50px;
+}
+
+#all-container{
+   border: none;
+   margin-left: 400px;
+   margin-right: 400px;
+   margin-top: 25px;
+   padding-bottom: 45px;
+   border-radius: 10px;
+   background-color: white;
+   color: black;
+   box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+}
+
+.todo-container, .grid-container{
+   display: grid;
+   grid-template-columns: 200px 140px 100px;
+   column-gap: 10px;
+   row-gap: 10px;
+   margin-top: 15px;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 10px;
+}
+
+#todo-input{
+   font-size: 15px;
+   padding: 10px 10px;
+}
+
+#todo-date{
+   font-size: 13px;
+   padding: 10px 10px;
+   cursor: pointer;
+}
+
+#btn-add{
+   padding: 12px 10px;
+   background-color: rgb(250, 97, 20);
+   border: none;
+   border-radius: 10px;
+   font-size: 15px;
+   cursor: pointer;
+}
+
+#btn-delete{
+   padding: 12px 10px;
+   color: white;
+   background-color: rgb(15, 15, 14);
+   border: none;
+   border-radius: 10px;
+   font-size: 15px;
+   cursor: pointer;
+}
